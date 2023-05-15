@@ -1,0 +1,51 @@
+
+
+
+#banner{
+    background-image: url(/assets/img/banner.jpg);
+    height: 70vh;
+}
+#banner .container, #banner .container .row{
+    height: 100%;
+}
+
+#banner .bg-trans{
+    background: #00000077;
+    height: 100%;
+    padding-top: 12rem;
+}
+
+#banner .bg-trans h2{
+    color: #ffe400; 
+}
+#banner .bg-trans p{
+    color: #fff; 
+}
+/* welcome */
+#welcome{
+    background: #57641f;
+}
+
+/* lasteswho */
+#latestwho .intro h2{
+    position: relative;
+}
+#latestwho .intro h2::before{
+    content: "";
+    width: 40%;
+    height: .2vh;
+    background: lightslategray;
+    top: 50%;
+    left: 0;
+    position: absolute;
+}
+#latestwho .intro h2::after{
+    content: "";
+    width: 40%;
+    height: .2vh;
+    background: lightslategray;
+    top: 50%;
+    right: 0;
+    position: absolute;
+}
+
